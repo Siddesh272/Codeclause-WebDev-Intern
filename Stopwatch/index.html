@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Stopwatch</title>
+</head>
+<body>
+<div class="container">
+  <div class="timer">
+    <h1>Timer</h1>
+    <div class="timer-display">
+      <span class="timer-hours">00</span> :
+      <span class="timer-minutes">00</span> :
+      <span class="timer-seconds">00</span>
+    </div>
+    <div class="timer-controls">
+      <button class="start-timer">Start</button>
+      <button class="pause-timer">Pause</button>
+      <button class="reset-timer">Reset</button>
+    </div>
+    <div class="timer-set">
+      <input type="number" placeholder="HH" min="0" max="24" id="hours">
+      <input type="number" placeholder="MM" min="0" max="60" id="minutes">
+      <input type="number" placeholder="SS" min="0" max="60" id="seconds">
+      <button class="set-timer">Set Timer</button>
+    </div>
+  </div>
+  <br><br>
+    <div class="stopwatch">
+      <h1>Stop Watch</h1>
+      <div class="display">
+        <span class="minutes">00</span>:<span class="seconds">00</span>:<span class="milliseconds">00</span>
+      </div>
+      <div class="controls">
+      <button class="start">Start</button>
+      <button class="stop">Stop</button>
+      <button class="reset">Reset</button>
+      <button class="lap">Lap</button>
+    </div>
+      <ul class="laps"></ul>
+    </div>
+
+    
+ </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
